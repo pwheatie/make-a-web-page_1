@@ -1,0 +1,57 @@
+/* This assigns the <h1 tag> a center alignment and golden color with text uppercase */
+h1{
+	text-align: center;
+	color: goldenrod;
+    text-transform: uppercase;
+}
+
+/* This assigns the h3 tag a font which stands out from the rest of the text */
+h3{
+  font-style: italic;
+  font-family: fantasy;
+}
+
+/* assigns font-family to the body */
+body{
+	font-family: Helvetica, Helvetica Neue;
+}
+
+/* This assigns everything inside of the element with class="lesson"
+a darkslategray backround with additional styling to make lessons heading stand out */
+.lesson{
+	background-color: darkslategrey;
+	color: white;
+	padding: 10px;
+    text-align: center;
+    font-family: serif;
+      
+}
+
+/* This assigns borders to the class="concept" along with color and additional stylong */ 
+.concept{
+  border-radius: 20px;
+  background-color: aliceblue;
+  border: 10px;
+  padding: 20px;
+  
+}
+
+/* this code sets the font size to 20 pixels, makes it bold and centers it.*/
+.concept-title{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* centers and gives border to class="vocab" */
+.vocab{
+  text-align: center;
+  border: 2px solid;
+}
+  
+  
+
+/* removes the underline from hyperlinks */
+a:link{
+  text-decoration: none;
+}
